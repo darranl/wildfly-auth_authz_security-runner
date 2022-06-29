@@ -15,7 +15,7 @@
     <xsl:template match="//*[local-name()='project']
                          //*[local-name()='profiles']">
         <xsl:copy>
-            <xsl:apply-templates select="document('profile.xml')/profile"/>
+            <xsl:apply-templates select="document('profile.xml')/*"/>
             <xsl:apply-templates select="node()|@*"/>
         </xsl:copy>
     </xsl:template>

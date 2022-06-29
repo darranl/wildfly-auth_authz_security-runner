@@ -363,7 +363,7 @@
     </reporting>
 
     <!-- Profiles for the application servers against which the tests are run -->
-    <profiles><profile xmlns="">
+    <profiles><profile>
             <id>wildfly</id>
 
             <properties>
