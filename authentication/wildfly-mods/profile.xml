@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
 
-        <profile>
+        <profile xmlns="http://maven.apache.org/POM/4.0.0">
             <id>wildfly</id>
 
             <properties>
